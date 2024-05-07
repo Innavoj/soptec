@@ -49,42 +49,42 @@
         "stocked": true
       },
       {
-        "id": 11,
+        "id": 8,
         "category": "INSTALACION",
         "title": "Instalación de sistemas operativos",
         "precio": 500,
         "stocked": true
       },
       {
-        "id": 12,
+        "id": 9,
         "category": "INSTALACION",
         "title": "Instalación y configuración de hardware",
         "precio": 150,
         "stocked": true
       },
       {
-        "id": 13,
+        "id": 10,
         "category": "INSTALACION",
         "title": "Instalación y configuración de software",
         "precio": 150,
         "stocked": true
       },
       {
-        "id": 8,
+        "id": 11,
         "category": "HDD",
         "title": "Clonación de disco",
         "precio": 400,
         "stocked": true
       },
       {
-        "id": 9,
+        "id": 12,
         "category": "HDD",
         "title": "Recuperar datos del disco",
         "precio": 500,
         "stocked": true
       },
       {
-        "id": 10,
+        "id": 13,
         "category": "HDD",
         "title": "Particionar  disco duro",
         "precio": 200,
@@ -112,11 +112,18 @@
         "stocked": true
       },
       {
-        "id": 16,
+        "id": 17,
         "category": "MOVILES",
         "title": "Recuperar datos de móviles",
         "precio": 500,
         "stocked": false
+      },
+      {
+        "id": 18,
+        "category": "WEB",
+        "title": "Desarrollo web y soluciones informáticas",
+        "precio": "30.000",
+        "stocked": true
       }
 ]
 

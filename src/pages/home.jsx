@@ -2,8 +2,6 @@ import { Box, Container, Divider, Stack, Typography } from '@mui/material';
 import MyButton from '../components/Button';
 import MyButtonFab from '../components/ButtonFab';
 import { useState } from 'react';
-
-//import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import Servicios  from './Servicios'
 import sopTec from "../assets/soptec.png"
@@ -37,15 +35,17 @@ function Home({title}) {
         <>
         <Container >
             <Box>
-                <h1>{title}</h1>
-                <h3>SopTec se distingue por dar respuesta a la integración de proyectos, enfocado a la atención al cliente</h3>
+          
+                    <h1>{title}</h1>
+                    <h3>Se distingue por dar respuesta a la integración de proyectos, enfocado a la atención al cliente</h3>
+              
             </Box>
             <Box>
                 <Imagen />
             </Box>
             <Box>
-                <Typography>SopTec es una empresa TCP dedicada a la prestación de servicios de soporte técnico, servicios informáticos y electrónicos a particulares y sistema empresarial. Garantiza la integridad rápidez y eficiencia a lo largo y ancho de nuestro territorio.
-                Radicamos en Santiago de Cuba. Para dudas, información y asesoramiento llámenos por Whatsapp</Typography>
+                <Typography>Somos una empresa TCP dedicada a la prestación de servicios de soporte técnico, servicios informáticos y electrónicos a particulares y sistema empresarial. Garantiza la integridad rápidez y eficiencia a lo largo y ancho de nuestro territorio.
+                Radicamos en la ciudad de Santiago de Cuba. Cuba. Para dudas, información y asesoramiento contáctenos por Whatsapp</Typography>
                 <ul className='lista'>
                     <li>El pago es MN, aunque se acepta MLC si lo desea.</li>
                     <li>Puede pagar en efectivo y/o transferencias.</li>
@@ -62,7 +62,7 @@ function Home({title}) {
                 </Stack>
             </Box>
             <Divider sx={{mt:4, mb:4}} />
-            <Box sx={{flexWrap: 'wrap', p:4, mt: 4, mb:4, borderRadius: 2, border: 0, color: "blue", display: "flex", fontSize: 15, textAlign: "center", justifyContent: 'center'}}>  
+            <Box sx={{flexWrap: 'wrap', p:4, mt: 4, mb:4, borderRadius: 4, border: 0, color: "blue", display: "flex", fontSize: 15, textAlign: "center", justifyContent: 'center'}}>  
                 { showMore &&  <Servicios/> }
             </Box>
         </Container>
