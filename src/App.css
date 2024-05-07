@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color:rgb(8, 8, 8);
+  background: rgb(247,247,247);
+  background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(247,247,247,1) 46%, rgba(119,10,213,1) 92%, rgba(132,0,255,1) 100%);
 }
 
 .App-logo {
@@ -22,12 +25,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: ;
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.lista {
+  text-decoration: none;
+}
+
+@media only screen  and (max-width: 320px) {
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,124 @@
+
+[      {
+        "id": 1,
+        "category": "MTTO",
+        "title": "Limpieza Laptop",
+        "precio": 1000,
+        "stocked": true
+      },
+      {
+        "id": 2,
+        "category": "MTTO",
+        "title": "Limpieza PC",
+        "precio": 800,
+        "stocked": true
+      },
+      {
+        "id": 3,
+        "category": "MTTO",
+        "title": "Limpieza de mandos",
+        "precio": 200,
+        "stocked": true
+      },
+      {
+        "id": 4,
+        "category": "MTTO",
+        "title": "Limpieza de mouse",
+        "precio": 200,
+        "stocked": true
+      },
+      {
+        "id": 5,
+        "category": "MTTO",
+        "title": "Limpieza de teclados",
+        "precio": 500,
+        "stocked": false
+      },
+      {
+        "id": 6,
+        "category": "INSTALACION",
+        "title": "Instalación de drivers",
+        "precio": 150,
+        "stocked": true
+      },
+      {
+        "id": 7,
+        "category": "INSTALACION",
+        "title": "Instalación de paquete Office",
+        "precio": 150,
+        "stocked": true
+      },
+      {
+        "id": 11,
+        "category": "INSTALACION",
+        "title": "Instalación de sistemas operativos",
+        "precio": 500,
+        "stocked": true
+      },
+      {
+        "id": 12,
+        "category": "INSTALACION",
+        "title": "Instalación y configuración de hardware",
+        "precio": 150,
+        "stocked": true
+      },
+      {
+        "id": 13,
+        "category": "INSTALACION",
+        "title": "Instalación y configuración de software",
+        "precio": 150,
+        "stocked": true
+      },
+      {
+        "id": 8,
+        "category": "HDD",
+        "title": "Clonación de disco",
+        "precio": 400,
+        "stocked": true
+      },
+      {
+        "id": 9,
+        "category": "HDD",
+        "title": "Recuperar datos del disco",
+        "precio": 500,
+        "stocked": true
+      },
+      {
+        "id": 10,
+        "category": "HDD",
+        "title": "Particionar  disco duro",
+        "precio": 200,
+        "stocked": true
+      },
+      {
+        "id": 14,
+        "category": "MOVILES",
+        "title": "Flasheo móviles o tablet android",
+        "precio": 1000,
+        "stocked": true
+      },
+      {
+        "id": 15,
+        "category": "MOVILES",
+        "title": "Desbloquear móviles o tablet android",
+        "precio": 2000,
+        "stocked": true
+      },
+      {
+        "id": 16,
+        "category": "MOVILES",
+        "title": "Actualizar iOS iPhone",
+        "precio": 2500,
+        "stocked": true
+      },
+      {
+        "id": 16,
+        "category": "MOVILES",
+        "title": "Recuperar datos de móviles",
+        "precio": 500,
+        "stocked": false
+      }
+]
+
+
+
