@@ -121,11 +121,43 @@
       {
         "id": 18,
         "category": "WEB",
-        "title": "Desarrollo web y soluciones informáticas",
+        "title": "Desarrollo de App",
+        "precio": "50.000",
+        "stocked": true
+      },
+      {
+        "id": 19,
+        "category": "WEB",
+        "title": "Portafolios",
+        "precio": "15.000",
+        "stocked": true
+      },
+      {
+        "id": 20,
+        "category": "WEB",
+        "title": "Landing Pages",
+        "precio": "15.000",
+        "stocked": true
+      },
+      {
+        "id": 21,
+        "category": "WEB",
+        "title": "Bases de Datos",
+        "precio": "40.000",
+        "stocked": true
+      },
+      {
+        "id": 22,
+        "category": "WEB",
+        "title": "E-Commerce",
+        "precio": "50.000",
+        "stocked": true
+      },
+      {
+        "id": 23,
+        "category": "WEB",
+        "title": "API Rest",
         "precio": "30.000",
         "stocked": true
       }
 ]
-
-
-

@@ -19,7 +19,7 @@ function ProductRow({ product }) {
   const name = product.stocked ? product.title :
     <span style={{ color: 'red' }}>
       {product.title}
-    </span>;
+    </span>
 
   return (
     <tr>
@@ -106,7 +106,7 @@ function FilterableProductTable({ products }) {
           products={products}
           filterText={filterText}
           inStockOnly={inStockOnly} />
-</div>
+      </div>
   );
 }
 

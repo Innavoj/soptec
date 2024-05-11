@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  color:rgb(8, 8, 8);
-  background: rgb(247,247,247);
-  background: radial-gradient(circle, rgba(247,247,247,1) 0%, rgba(247,247,247,1) 46%, rgba(119,10,213,1) 92%, rgba(132,0,255,1) 100%);
+  color:rgb(12, 12, 12);
+  background: rgb(239,246,246);
+  background: radial-gradient(circle, rgba(239,246,246,1) 21%, rgba(176,237,4,1) 57%);
 }
 
 .App-logo {
@@ -34,6 +34,7 @@
 
 .lista {
   text-decoration: none;
+  text-decoration-line: none;
 }
 
 @media only screen  and (max-width: 320px) {
