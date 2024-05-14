@@ -14,7 +14,6 @@ function ProductCategoryRow({ category }) {
 }
 
 
-
 function ProductRow({ product }) {
   const name = product.stocked ? product.title :
     <span style={{ color: 'red' }}>
