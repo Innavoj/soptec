@@ -13,10 +13,6 @@ import sopTec from "../assets/soptec.png"
 //import fondo from "../assets/fondo1.jpg"
 
 
-
-
-
-
 function Home({titulo}) {
    
         const [showMore, setShowMore] = useState(false);
@@ -48,8 +44,8 @@ function Home({titulo}) {
     return(
         <>
         <helmet>
-            <title>Soporte Tecnico y Soluciones Integrales</title>
-            <meta name="description" content="Soporte Tecnico Soluciones Integrales Web Developer Web Solutions servicios informáticos" />
+            <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
+            <meta name="description" content="Soptec Soporte Tecnico Soluciones Integrales Web Developer Web Solutions servicios informáticos" />
         </helmet>
 
         <Container >
