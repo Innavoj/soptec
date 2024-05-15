@@ -11,6 +11,7 @@ import ListAltIcon from '@mui/icons-material/ListAlt';
 import Servicios  from './Servicios'
 import sopTec from "../assets/soptec.png"
 //import fondo from "../assets/fondo1.jpg"
+import { Analytics } from "@vercel/analytics/react";
 
 
 function Home({titulo}) {
@@ -47,7 +48,7 @@ function Home({titulo}) {
             <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
             <meta name="description" content="Soptec Soporte Tecnico Soluciones Integrales Web Developer Web Solutions servicios informáticos" />
         </helmet>
-
+        <Analytics />
         <Container >
             {/* <ImgFondo /> */}
             <Box sx={{pt:4, pb:4, color:"blueviolet"}}>
