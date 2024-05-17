@@ -28,7 +28,7 @@ function Home({titulo}) {
      function ImgLogo () {
         return(
             <Box>
-                <img src={sopTec} className="logo" alt="SopTec" />
+                <img src={sopTec} className="logo" alt="Soporte Tecnico" />
             </Box>
         )
     }
@@ -46,24 +46,26 @@ function Home({titulo}) {
         <>
         <helmet>
             <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
-            <meta name="description" content="Soptec Soporte Tecnico Soluciones Integrales Web Developer Web Solutions servicios informáticos" />
+            <meta name="description" content="Descubre en nosotros la garantía, solución, rápidez y vitalidad." />
         </helmet>
         <Analytics />
-        <Container >
+        <Container flexWrap='wrap'>
             {/* <ImgFondo /> */}
-            <Container >
-            <Box sx={{pt:4, pb:6, color:"white"}}>
-                <Typography variant="h3"  >{titulo}</Typography>
-                <Typography variant="h5">Se distingue por dar respuesta a la integración de proyectos, enfocado a la atención al cliente</Typography>             
+            <Container flexWrap='wrap'>
+            <Box sx={{pt:4, pb:6, color:"white", flexWrap:'wrap'}}>
+                <Typography variant="h2" >{titulo}</Typography>
+                <Typography variant="h4" sx={{pt: 4, pb: 4}}>Se distingue por la solución a la integración de proyectos, exclusivo, orientado a resultados y reconocido por la atención al cliente</Typography>             
             </Box>
             <Box>
                 <ImgLogo />
             </Box>
             </Container >
             <Box sx={{pt:4, pb:4, color:"white"}}>
-                <Typography>Somos una empresa dedicada a la prestación de servicios de soporte técnico, servicios informáticos y electrónicos a particulares y sistema empresarial. Garantiza la integridad rápidez y eficiencia a lo largo y ancho de nuestro territorio.
-                Radicamos en la ciudad de Santiago de Cuba. Cuba. </Typography>
-                <Typography> Para dudas, información y asesoramiento contáctenos por Whatsapp</Typography>
+                <Typography variant="h5">Somos una empresa recomendada a la solución de servicios de soporte técnico, soluciones informáticas y electrónicas. </Typography>
+                <Typography variant="h5">Descubre en nosotros la garantía, solución, rápidez y vitalidad. </Typography>
+                <Typography variant="h5">Una buena oferta con descuento inluido. </Typography>
+                <Typography variant="h5">Radicamos en la ciudad de Santiago de Cuba. Cuba. </Typography>
+                
                 <Box  sx={{pt:2, pb:2}} >
                 <Stack display="flex" direction="row" flexWrap= 'wrap' textAlign= "center" justifyContent= 'center'>
                 <List >
@@ -94,13 +96,13 @@ function Home({titulo}) {
                 </List>
                 </Stack>
                 </Box>
-                <Typography variant="h5" color= "success" sx={{pt: 2, pb: 2, }}>No dudes en llamarnos, ponte en contacto con nosotros</Typography>
+                <Typography variant="h5" color= "success" sx={{pt: 2, pb: 2, }}>Para más información y mejor asesoramiento, no dudes en contactarnos</Typography>
             </Box>
             
             <Box >
                 <Stack  direction="row" flexWrap= 'wrap' textAlign= "center" justifyContent= 'center' spacing={4} >   
                     <MyButtonFab />
-                    <MyButton onClick={handleMoreClick} startIcon={<ListAltIcon />} color="success" variant="outlined" texto="Ver Servicios"  />
+                    <MyButton onClick={handleMoreClick} startIcon={<ListAltIcon />} color="success" variant="outlined" texto="Descubre nuestros Servicios"  />
                 </Stack>
             </Box>
             <Divider sx={{mt:4, mb:4}} />

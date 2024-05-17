@@ -44,12 +44,15 @@
 
 @media only screen  and (max-width: 320px) {
   .logo {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
   }
   .lista {
-    display: flex, 
-    
+    display: flex; 
+  }
+  .tipografia {
+    font-size: 12px;
+    text-size-adjust: 15px;
   }
 }
 @keyframes App-logo-spin {
