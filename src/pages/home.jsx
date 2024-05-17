@@ -102,7 +102,7 @@ function Home({titulo}) {
             <Box >
                 <Stack  direction="row" flexWrap= 'wrap' textAlign= "center" justifyContent= 'center' spacing={4} >   
                     <MyButtonFab />
-                    <MyButton onClick={handleMoreClick} startIcon={<ListAltIcon />} color="success" variant="outlined" texto="Descubre nuestros Servicios"  />
+                    <MyButton onClick={handleMoreClick} startIcon={<ListAltIcon />} color="inherit" variant="outlined" texto="Descubre nuestros Servicios"  />
                 </Stack>
             </Box>
             <Divider sx={{mt:4, mb:4}} />
