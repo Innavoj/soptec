@@ -51,14 +51,16 @@ function Home({titulo}) {
         <Analytics />
         <Container >
             {/* <ImgFondo /> */}
-            <Box sx={{pt:4, pb:4, color:"blueviolet"}}>
+            <Container >
+            <Box sx={{pt:4, pb:6, color:"white"}}>
                 <Typography variant="h3"  >{titulo}</Typography>
                 <Typography variant="h5">Se distingue por dar respuesta a la integración de proyectos, enfocado a la atención al cliente</Typography>             
             </Box>
             <Box>
                 <ImgLogo />
             </Box>
-            <Box sx={{pt:4, pb:4, color:"blueviolet"}}>
+            </Container >
+            <Box sx={{pt:4, pb:4, color:"white"}}>
                 <Typography>Somos una empresa dedicada a la prestación de servicios de soporte técnico, servicios informáticos y electrónicos a particulares y sistema empresarial. Garantiza la integridad rápidez y eficiencia a lo largo y ancho de nuestro territorio.
                 Radicamos en la ciudad de Santiago de Cuba. Cuba. </Typography>
                 <Typography> Para dudas, información y asesoramiento contáctenos por Whatsapp</Typography>
@@ -92,7 +94,7 @@ function Home({titulo}) {
                 </List>
                 </Stack>
                 </Box>
-                <Typography variant="h5" sx={{pt: 2, pb: 2}}>No dudes en llamarnos, ponte en contacto con nosotros</Typography>
+                <Typography variant="h5" color= "success" sx={{pt: 2, pb: 2, }}>No dudes en llamarnos, ponte en contacto con nosotros</Typography>
             </Box>
             
             <Box >
@@ -102,7 +104,7 @@ function Home({titulo}) {
                 </Stack>
             </Box>
             <Divider sx={{mt:4, mb:4}} />
-            <Box sx={{flexWrap: 'wrap', p:4, mt: 4, mb:4, borderRadius: 2, border: 0, color: "blue", display: "flex", fontSize: 15, textAlign: "center", justifyContent: 'center'}}>  
+            <Box sx={{flexWrap: 'wrap', p:4, mt: 4, mb:4, borderRadius: 2, border: 0, color: "black", display: "flex", fontSize: 15, textAlign: "center", justifyContent: 'center'}}>  
                 { showMore &&  <Servicios/> }
             </Box>
         </Container>
