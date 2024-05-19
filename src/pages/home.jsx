@@ -28,7 +28,7 @@ function Home({titulo}) {
      function ImgLogo () {
         return(
             <Box>
-                <img src={sopTec} className="App-logo" alt="Soporte Tecnico" />
+                <img src={sopTec} className="App-logo" alt="Web Solutions" />
             </Box>
         )
     }
@@ -53,7 +53,7 @@ function Home({titulo}) {
             {/* <ImgFondo /> */}
             <Container flexWrap='wrap'>
             <Box sx={{pt:4, pb:6, color:"white", flexWrap:'wrap'}}>
-                <Typography variant="h2" >{titulo}</Typography>
+                <Typography variant="h3" >{titulo}</Typography>
                 <Typography variant="h4" sx={{pt: 4, pb: 4}}>Se distingue por la solución a la integración de proyectos, exclusivo, orientado a resultados y reconocido por la atención al cliente</Typography>             
             </Box>
             <Box>
