@@ -120,44 +120,44 @@
       },
       {
         "id": 18,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "Desarrollo de App",
-        "precio": "500.000",
+        "precio": "37.000",
         "stocked": true
       },
       {
         "id": 19,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "Portafolios",
-        "precio": "15.000",
+        "precio": "12.000",
         "stocked": true
       },
       {
         "id": 20,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "Landing Pages",
-        "precio": "15.000",
+        "precio": "6.000",
         "stocked": true
       },
       {
         "id": 21,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "Bases de Datos",
-        "precio": "50.000",
+        "precio": "43.000",
         "stocked": true
       },
       {
         "id": 22,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "E-Commerce",
         "precio": "50.000",
         "stocked": true
       },
       {
         "id": 23,
-        "category": "WEB",
+        "category": "DESARROLLO WEB",
         "title": "API Rest",
-        "precio": "35.000",
+        "precio": "18.000",
         "stocked": true
       }
 ]

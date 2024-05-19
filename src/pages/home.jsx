@@ -28,7 +28,7 @@ function Home({titulo}) {
      function ImgLogo () {
         return(
             <Box>
-                <img src={sopTec} className="logo" alt="Soporte Tecnico" />
+                <img src={sopTec} className="App-logo" alt="Soporte Tecnico" />
             </Box>
         )
     }
