@@ -156,6 +156,13 @@
       {
         "id": 23,
         "category": "DESARROLLO WEB",
+        "title": "App Móviles",
+        "precio": "62.000",
+        "stocked": false
+      },
+      {
+        "id": 24,
+        "category": "DESARROLLO WEB",
         "title": "API Rest",
         "precio": "18.000",
         "stocked": true

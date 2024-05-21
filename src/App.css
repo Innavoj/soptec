@@ -54,6 +54,7 @@
   .tipografia {
     font-size: 12px;
     text-size-adjust: 15px;
+    font-size-adjust: 12px;
   }
 }
 @keyframes App-logo-spin {

@@ -54,14 +54,14 @@ function Home({titulo}) {
             <Container flexWrap='wrap'>
             <Box sx={{pt:4, pb:6, color:"white", flexWrap:'wrap'}}>
                 <Typography variant="h3" >{titulo}</Typography>
-                <Typography variant="h4" sx={{pt: 4, pb: 4}}>Se distingue por la solución a la integración de proyectos, exclusivo, orientado a resultados y reconocido por la atención al cliente</Typography>             
+                <Typography variant="h4" sx={{pt: 4, pb: 4}}>Nos distingue la integración de proyectos, exclusivos, orientado a resultados y reconocidos por la atención al cliente</Typography>             
             </Box>
             <Box>
                 <ImgLogo />
             </Box>
             </Container >
             <Box sx={{pt:4, pb:4, color:"white"}}>
-                <Typography variant="h5">Somos una empresa recomendada a la solución de servicios de soporte técnico, soluciones informáticas y electrónicas. </Typography>
+                <Typography variant="h5">Somos una empresa recomendada a la solución de servicios de soporte técnico, soluciones informáticas y soluciones electrónicas. </Typography>
                 <Typography variant="h5">Descubre en nosotros la garantía, solución, rápidez y vitalidad. </Typography>
                 <Typography variant="h5">Una buena oferta con descuento inluido. </Typography>
                 <Typography variant="h5">Radicamos en la ciudad de Santiago de Cuba. Cuba. </Typography>

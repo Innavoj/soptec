@@ -16,7 +16,7 @@ function App() {
     <>
     <helmet>
       <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
-      <meta name="description" content="Descubre en nosotros la garantía, solución, rápidez y vitalidad." />
+      <meta name="description" content="Web Developer Web Solutions Soluciones Informaticas Desarrollo web" />
     </helmet>
 
     <div className='App'>
