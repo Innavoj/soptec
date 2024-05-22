@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Soporte Tecnico y Soluciones Integrales",
-  description: "Web Developer Web Solutions Soluciones Informaticas Desarrollo web"  
+  description: "Nos distingue la integración de proyectos exclusivos, orientado a resultados y reconocidos por la atención al cliente"  
 };
 
 function App() {

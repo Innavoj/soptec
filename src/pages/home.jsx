@@ -11,7 +11,7 @@ import ListAltIcon from '@mui/icons-material/ListAlt';
 import Servicios  from './Servicios'
 import sopTec from "../assets/soptec.png"
 //import fondo from "../assets/fondo1.jpg"
-import { Analytics } from "@vercel/analytics/react";
+//import { Analytics } from "@vercel/analytics/react";
 
 
 function Home({titulo}) {
@@ -48,13 +48,13 @@ function Home({titulo}) {
             <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
             <meta name="description" content="Descubre en nosotros la garantía, solución, rápidez y vitalidad." />
         </helmet>
-        <Analytics />
+        {/* <Analytics /> */}
         <Container flexWrap='wrap'>
             {/* <ImgFondo /> */}
             <Container flexWrap='wrap'>
             <Box sx={{pt:4, pb:6, color:"white", flexWrap:'wrap'}}>
                 <Typography variant="h3" >{titulo}</Typography>
-                <Typography variant="h4" sx={{pt: 4, pb: 4}}>Nos distingue la integración de proyectos, exclusivos, orientado a resultados y reconocidos por la atención al cliente</Typography>             
+                <Typography variant="h4" sx={{pt: 4, pb: 4}}>Nos distingue la integración de proyectos exclusivos, orientado a resultados y reconocidos por la atención al cliente</Typography>             
             </Box>
             <Box>
                 <ImgLogo />
