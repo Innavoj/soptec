@@ -44,10 +44,10 @@ function Home({titulo}) {
 
     return(
         <>
-        <helmet>
+        {/* <helmet>
             <title>Soptec - Soporte Tecnico y Soluciones Integrales</title>
             <meta name="description" content="Descubre en nosotros la garantía, solución, rápidez y vitalidad." />
-        </helmet>
+        </helmet> */}
         {/* <Analytics /> */}
         <Container flexWrap='wrap'>
             {/* <ImgFondo /> */}
