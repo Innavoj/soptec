@@ -1,4 +1,4 @@
-# SPA para la Empresa Soptec utilizando React + Material UI. Empresa dedicada a la prestación de servicios de soporte técnico, servicios informáticos y servicios electrónicos a particulares y sistema empresarial. despliegue en vercel y análisis de tráfico Web. 
+# Desarrollo de una SPA para empresa de soporte técnico “Soptec” facilitando la interacción con el cliente y promociona servicios. Utilizando React con Material UI. despliegue en vercel y análisis de tráfico Web. 
 # Getting Started with Create React App
 
 
