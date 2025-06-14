@@ -1,4 +1,4 @@
-# Run and deploy your AI Studio app
+# SPA para la empresa de Soporte Técnico Especializado
 
 This contains everything you need to run your app locally.
 
